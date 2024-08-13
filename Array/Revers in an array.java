@@ -1,4 +1,4 @@
-public class Test5 
+public class Revers_Array
 {
     public static void revers(int num[])
     {
