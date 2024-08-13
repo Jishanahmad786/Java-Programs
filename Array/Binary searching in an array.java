@@ -1,4 +1,4 @@
-public class Test4 
+public class Binary_Searching
 {
     public static int binarySearch(int num[],int key)
     {
