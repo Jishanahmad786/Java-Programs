@@ -1,6 +1,4 @@
-
-
-public class Test6
+public class Minimum_Elements
 {
     public static int minimum(int arr[])
     {
