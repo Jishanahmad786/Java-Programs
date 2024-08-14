@@ -1,4 +1,5 @@
 public class Swap_Alternate {
+    // swaping logic
     public static void Swaping(int arr[])
     {
         for(int i=0;i<arr.length;i+=2)
@@ -11,14 +12,21 @@ public class Swap_Alternate {
             }
         }
     }
-    public static void main(String[] args) 
+// printing the array elements after swaping
+    public static void Print_Array(int arr[])
     {
-        int arr[]={2,4,6,8,10,12};
-        Swaping(arr);
         for(int i=0;i<arr.length;i++)
         {
             System.out.print(arr[i]+"\t");
         }
+
+    }
+    public static void main(String[] args) 
+    {
+        int arr[]={2,4,6,8,10,12};
+        Swaping(arr);       // swapping call
+        Print_Array(arr);   // print after swaping 
+       
     }
     
 }
